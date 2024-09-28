@@ -15,6 +15,10 @@ public static void main(){
 
 
 
+
+
+}
+
 public class team{
 	int memberids[];
 	int totalSkills;
@@ -29,7 +33,6 @@ public class team{
 
 }
 
-}
 public class BruteForce {
 
 team teams[];
