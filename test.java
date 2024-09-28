@@ -10,7 +10,15 @@ public static void main(){
 	int id[];           //list of all ids
 	int seperiorId[];   //list of seperior ids
 	int skills[];       //list of skill levels
+ 
 
+//read from file by iterating thru the 4 arrays and filling them one by one each iteration
+
+//team optimalTeam = new team(); or do it in brute force?
+
+//call brute force
+
+// print results to user or to file?
 
 
 
@@ -35,7 +43,16 @@ public class team{
 
 public class BruteForce {
 
+	//loop thru all skills
+	//loop thru all skills+1
+	//calc total skill
+	//save in temp
+	//compare to best
+
+
 team teams[];
+
+
 
 
 }
