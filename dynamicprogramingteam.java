@@ -44,6 +44,7 @@ public class dynamicprogramingteam {
         } catch (IOException e) {
             e.printStackTrace();
         }
+         long start = System.nanoTime();//start timer
 
         // Find the best team using dynamic programming
         Team bestTeam = findBestTeam(employees, maxSize);
@@ -55,6 +56,10 @@ public class dynamicprogramingteam {
         } else {
             System.out.println("No optimal team was found.");
         }
+         long end = System.nanoTime();//end timer
+         System.out.println("Elapsed time is: " + (end - start) / 1e9 + " seconds");
+
+
     }
 
     static class Team {
