@@ -52,7 +52,9 @@ public class BruteFrorceTeamFormation{
        e.printStackTrace();
       }
 
-      //end of reading      
+      //end of reading     
+      long start = System.nanoTime();// start timer
+ 
       BruteFrorceTeamFormation formation = new BruteFrorceTeamFormation();
       //Give best team using the brute force algorithm
 		Team BestTeam = formation.BruteForceResults(Employees, maxSize);
@@ -65,6 +67,8 @@ public class BruteFrorceTeamFormation{
         else {
             System.out.println("No optimal team was found.");
         }
+      long end = System.nanoTime();//end timer
+      System.out.println("Elapsed time is: " + (end - start) / 1e9 + " seconds");
 
 	}
 
